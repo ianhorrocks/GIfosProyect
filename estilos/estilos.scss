@@ -1,0 +1,34 @@
+/*** G E N E R A L E S ***/
+
+@import "generales/variables";
+@import "generales/mixins";
+@import "generales/navbar";
+@import "generales/footer";
+@import "generales/modal";
+
+/*** B O D Y ***/
+
+@import "home/main";
+
+/*** S E C C I O N ***/
+
+@import "home/trending";
+@import "favoritos/main";
+@import "misgifos/main";
+@import "creargifo/main";
+
+/*** T E M A ***/
+
+@import "nocturno/navbar";
+@import "nocturno/footer";
+@import "nocturno/home";
+@import "nocturno/favoritos";
+@import "nocturno/misgifos";
+@import "nocturno/creargifo";
+@import "nocturno/modal";
+
+* {
+    margin: auto 0;
+    padding: 0;
+    box-sizing: border-box;
+}
